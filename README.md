@@ -83,7 +83,8 @@
 
 ### 分支提交紀錄
 * 因為本來是分開來寫的，後來才合併在同一個倉庫所以沒有提交紀錄，這裡可以附上原本的倉庫，分支有在裡面。
-* GitHub 連結：https://github.com/Chun-Lin-Huang/react-ts-final
+* 前端：https://github.com/Chun-Lin-Huang/react-ts-final
+* 後端：https://github.com/Chun-Lin-Huang/mongoDemo2
 
 ### figma
 * figma 連結：https://reurl.cc/A69GyY
