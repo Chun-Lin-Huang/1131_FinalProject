@@ -1,0 +1,145 @@
+.container {
+  background-color: #fff;
+  font-family: Knewave, sans-serif;
+  font-weight: 400;
+  white-space: nowrap;
+  padding: 42px 80px 82px;
+  width: 100%;  /* 确保容器宽度为100% */
+  min-height: 100vh;  /* 确保容器至少撑满视口高度 */
+  margin: 0 auto;  /* 水平居中容器 */
+}
+
+.content {
+  width: 1227px;  /* 固定宽度 */
+  margin: 0 auto;  /* 水平居中 */
+  /* 移除flexbox布局 */
+  text-align: center;  /* 使文字居中 */
+}
+
+.title {
+  color: rgb(151, 128, 128);
+  font-size: 64px;
+}
+
+.orderSection {
+  display: block;  /* 改為塊級元素 */
+  position: relative;
+  min-height: 710px;
+  margin-top: 117px;
+  width: 100%;
+  font-size: 48px;
+  color: rgb(91, 54, 54);
+  padding: 44px 58px 19px;
+}
+
+.backgroundImage {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.labelWithIcon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.circleIcon {
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+}
+
+.labelText {
+  align-self: start;
+  flex-basis: auto;
+}
+
+.actionButtons {
+  display: flex;
+  margin-top: 60px;
+  width: 100%;  /* 確保佔滿父容器的寬度 */
+  max-width: 673px;  /* 限制最大寬度 */
+  gap: 20px;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  justify-content: space-between;  /* 按鈕間距兩側拉開 */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.primaryButton, .secondaryButton {
+  align-self: stretch;
+  border-radius: 16px;
+  min-height: 75px;
+  padding: 29px 24px;
+  border: none;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.primaryButton {
+  background-color: rgb(197, 137, 137);
+}
+
+.secondaryButton {
+  background-color: rgb(126, 144, 172);
+}
+
+@media (max-width: 991px) {
+  .container {
+    white-space: initial;
+    padding: 0 20px;
+  }
+
+  .content {
+    width: 100%;  /* 讓內容寬度隨螢幕調整 */
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .orderSection {
+    margin-top: 40px;
+    font-size: 40px;
+    padding: 0 20px;
+  }
+
+  .labelText {
+    font-size: 40px;
+  }
+
+  .actionButtons {
+    margin-top: 40px;
+  }
+
+  .primaryButton, .secondaryButton {
+    padding: 0 20px;
+  }
+}
+
+.orderItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* 水平居中 */
+  justify-content: center;  /* 垂直居中 */
+}
+
+.orderItem {
+  display: flex;
+  justify-content: center;  /* 水平居中 */
+  align-items: center;      /* 垂直居中 */
+  margin: 10px 0;           /* 商品项之间的间距 */
+  font-size: 48px;          /* 设置字体大小 */
+}
+
+.orderItem span {
+  margin: 0 10px;  /* 每个元素之间的水平间距，微调 */
+}
