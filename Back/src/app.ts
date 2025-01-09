@@ -16,8 +16,7 @@ export const DB = new MongoDB({
   dbName:process.env.DBNAME as string
 });
 
-// 確保從環境變數中讀取前端的 origin URL
-const frontendOrigin = process.env.FRONTEND_URL || "http://localhost:5173"; // 默認使用 http://localhost:5173
+const frontendOrigin = process.env.FRONTEND_URL || "http://localhost:5173"; 
 
 app.use(cors({
   origin: frontendOrigin, // 設置具體的前端 URL，而不是 '*'
