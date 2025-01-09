@@ -80,3 +80,13 @@
 * CSS 樣式設計。
 * 實現基本互動與導覽介面，使用者能透過前端操作執行 CRUD 功能。
 * 串接後端 API，於前端顯示資料並提供操作介面。
+
+### 分支提交紀錄
+＊ 因為本來是分開來寫的，後來放同一個倉庫所以沒有提交紀錄，這裡可以附上原本的倉庫，分支有在裡面。
+GitHub 連結：https://github.com/Chun-Lin-Huang/react-ts-final
+
+### figma
+figma 連結：https://reurl.cc/A69GyY
+
+### 操作影片
+Youtube：https://youtube.com/shorts/HSALMVHIjs8?si=bJ2m8whAJ2DXD2bd
